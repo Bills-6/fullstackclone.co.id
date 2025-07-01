@@ -1,0 +1,44 @@
+@import url(../util/util.css);
+/* btn have a background */
+.btn-outline-bs{
+	background-color: transparent;
+	border: 1px solid var(--bs-btn-bg);
+	color: var(--bs-btn-bg);
+}
+.btn-outline-bs:hover{
+	background-color: var(--bs-btn-bg);
+	color: var(--dark);
+}
+/* btn not have a background */
+.btn-bs{
+	background-color: var(--bs-btn-bg);
+	border: 1px solid var(--bs-btn-bg);
+	color: var(--dark);
+}
+.btn-bs:hover{
+	background-color: var(--bs-btn-hover-bg);
+}
+.nav-link-primary:hover{
+	color: #fff !important;
+}
+.navbar-brand{
+	width: 170px;
+	height: 40px;
+}
+.hero-page{
+	background-image: url(../../assets/images/background-hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+	font-size: clamp(0.9999rem, 6vw, 1.1rem);
+	line-height: 2.2;
+	color: #fff;
+	font-weight: light;
+}
+a[href="#cspage"]:hover{
+	filter: brightness(1.2);
+}
+.gradient-background{
+	    background: linear-gradient(82deg, #111a25 35%, #1d2530)
+}

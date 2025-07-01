@@ -1,0 +1,7 @@
+/* large */
+@media only screen and (min-width: 992px){
+	.navbar-brand{
+		width: 250px;
+		height: 45px;
+	}
+}

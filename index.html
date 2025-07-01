@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fullstack</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="/assets/icons/iconTab.ico" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="src/util/util.css">
+	<link rel="stylesheet" href="src/styles/style.css">
+	<link rel="stylesheet" href="src/styles/layout.css">
+</head>
+<body id="root" class="back-dark">
+	<nav class="navbar navbar-expand-lg back-secondary w-100 py-2 position-fixed top-0 shadow" style="z-index: 100;">
+		<div class="container py-2">
+			<a href="#mysite" aria-label="this is my site" class="navbar-brand">
+				<img class="nav-link" src="/assets/icons/iconFullstackNavigation.png" alt="This is fullstack Logo" width="100%" height="100%" aria-label="Fullstack logo and open to site home">
+			</a>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav ms-auto me-4">
+					<li class="nav-item">
+						<a href="#kurikulum" class="nav-link nav-link-primary fw-bold fs-5 text-white-50" aria-label="lihat kurikulum">Lihat Kurikulum</a>
+					</li>
+					<li class="nav-item ">
+						<a href="#karya-member" class="nav-link nav-link-primary fw-bold fs-5 text-white-50" aria-label="karya member">Karya Member</a>
+					</li>
+				</ul>
+				<div class="button">
+						<a href="#join-member" class="btn-outline-bs rounded-1 py-1 px-3 me-lg-3 d-lg-inline-flex d-md-flex align-items-center gap-2 text-decoration-none" aria-label="klik untuk login member">
+							<i class="bi bi-box-arrow-in-right fs-4"></i>
+							<span>Login Member</span>
+						</a>
+						<a href="#gabung-program" class="btn-bs rounded py-1 px-3 d-lg-inline-flex d-md-flex align-items-center gap-2 text-decoration-none" aria-label="klik untuk gabung dengan program kami">
+							<i class="bi bi-person-fill-add fs-4"></i>
+							<span>gabung Program</span>
+						</a>
+				</div>
+			</div>
+			<div class="hamburger-bar d-flex d-lg-none flex-column justify-content-between" style="width: 30px; height: 20px;">
+				<div class="bar bg-warning" style="height: 3px; transition: al 0.2s linear; transform-origin: left top;"></div>
+				<div class="bar bg-warning" style="height: 3px; transition: al 0.2s linear;"></div>
+				<div class="bar bg-warning" style="height: 3px; transition: al 0.2s linear; transform-origin: left bottom;"></div>
+			</div>
+		</div>
+	</nav>
+	<main id="main">
+		<section class="page hero-page pb-0 pb-lg-5" style="padding-top: 62px;">
+			<div class="container h-100 d-flex flex-column flex-lg-row pb-0 pb-lg-5 gap-3">
+				<div class="content h-100 w-lg-50 w-100 pt-5 pb-0 pb-lg-5">
+					<div class="wrapper pt-5">
+						<h1 class="title text-white pb-2">Jalan Lurus Jadi <span class="text-warning title">Fullstack Web Developer</span></h1>
+						<p class="pt-3 pb-4">Kelas online belajar Fullstack web developer from A to Z. Cocok buat yang pengen punya karir bagus, skill dibutuhin industri, gaji tinggi dan bisa bikin web atau aplikasi buat ngembangin bisnis online sendiri.</p>
+						<p>Aman buat pemula walaupun belum ngerti coding dan nggak punya background IT. Diajarin dari 0 banget!</p>
+						<div class="cta pt-4">
+							<div class="cta-header">
+								<strong><span class="text-white fs-5">2000+ orang udah belajar di sini</span></strong>
+							</div>
+							<div class="cta-body pt-4">
+								<div class="cta-anchor">
+									<a href="#gabung-program" class="btn-bs rounded-1 text-decoration-none py-2 px-3 d-lg-inline-flex d-flex align-items-center justify-content-center gap-3 mb-3 me-0 me-md-0 me-lg-1" aria-label="klik untu bergabung dengan program kami">
+										<i class="bi bi-person-fill-add fs-4"></i>
+										<span>Gabung Program</span>
+									</a>
+									<a href="#materi" class="btn-outline-bs rounded-1 text-decoration-none py-2 px-3 d-lg-inline-flex d-flex align-items-center justify-content-center gap-3" aria-label="klik untuk melihat materi kami">
+										<i class="bi bi-window-desktop fs-4"></i>
+										<span>Lihat Isi Materi</span>
+									</a> <br />
+									<a href="#cspage" class="text-decoration-none bg-transparent border-0 btn-bs d-flex align-items-center gap-3 p-3 pt-4 w-max" aria-label="klik untuk bertanya kepada CS kami">
+										<i class="bi bi-whatsapp fs-5 text-warning"></i>
+										<span class="text-warning">Tanya CS</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="image h-100 w-lg-50 w-100 pt-0 pt-lg-5">
+					<div class="arapper pt-0 pt-lg-5">
+						<img class="object-fit-cover" src="/assets/images/hero-image.png" width="100%" height="100%" loading="lazy" alt="Gambar hero">
+					</div>
+				</div>
+			</div>
+		</section>
+<section class="py-5">
+	<div class="container gradient-background py-5">
+		<div class="card py-2 rounded-0 bg-transparent border-0">
+			<div class="card-body d-flex flex-column-reverse flex-lg-row gap-5">
+				<div class="image w-lg-50">
+					<img class="w-100 h-100 object-fit-cover" src="/assets/images/image-issue.png" loading="lazy" alt="Gambar Issue">
+				</div>
+				<div class="content w-lg-50 py-3 d-flex">
+					<ul class="list-issue py-1 ps-0 my-auto ps-5">
+						<li class="list-item size text-white mb-3">Pengen jadi Full Stack Developer biar punya gaji tinggi?</li>
+						<li class="list-item size text-white mb-3">Udah belajar coding, tapi masih nggak bisa-bisa?</li>
+						<li class="list-item size text-white mb-3">Banyak tutorial, tapi malah jadi bingung harus ngikutin yang mana?</li>
+						<li class="list-item size text-white mb-3">Belajar sendirian, kalau error nggak ada yang bantuin?</li>
+						<li class="list-item size text-white mb-3">Mau ikut bootcamp coding tapi nggak nahan lihat harganya yang puluhan juta?</li>
+						<li class="list-item size text-white mb-2">Boro-boro jadi Full Stack Developer, yang ada malah jadi Full Stuck!</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p class="fw-bold text-warning mt-5 text-center">Jangan-jangan selama ini kamu salah cara belajarnya!</p>
+	</div>
+</section>
+<section class="py-5">
+	<div class="container py-5">
+		<h2 class="title mb-5 text-center text-white">
+			Yuk Gabung di <span class="text-warning title">KelasFullstact.id</span>
+		</h2>
+		<div class="arrow d-flex flex-column-reverse flex-lg-row gap-5 py-4 pt-5">
+			<div class="content w-lg-50">
+				<p>Belajar sepuasnya, tidak ada batas waktu. Beli sekali akses seumur hidup. Materi update terus mengikuti perkembangan zaman dan tren industri, tanpa tambahan biaya.</p>
+				<ul class="lists-achives ps-5 pb-1 text-white">
+					<li class="list-item mb-3 size">1000+ Materi Video Pembelajaran</li>
+					<li class="list-item mb-3 size">92+ Jam Durasi Belajar</li>
+					<li class="list-item mb-3 size">72 Modul</li>
+					<li class="list-item mb-3 size">1x Bayar, akses + Update Materi Seumur Hidup</li>
+				</ul>
+				<a class="btn-bs py-2 px-3 rounded-1 d-lg-inline-flex d-flex align-items-center gap-3 text-decoration-none" href="#video-materi" aria-label="klik untuk menonton penjelasan materi">
+					<i class="bi bi-play-circle-fill fs-4"></i>
+					<span>Tonton Penjelasan Materi</span>
+				</a>
+			</div>
+			<div class="image w-lg-50">
+				<img class="w-100 h-100 object-fit-cover" src="/assets/images/image-achive.png" loading="lazy" alt="gamnar achive">
+			</div>
+		</div>
+		<div class="arrow d-flex flex-column flex-lg-row gap-5 py-4 pt-5">
+			<div class="image w-lg-50">
+			<img class="w-100 h-100 object-fit-cover" src="/assets/images/image-codepultan.png" loading="lazy" alt="gamnar achive">
+			</div>
+			<div class="content w-lg-50 d-flex">
+				<div class="parent my-auto">
+			<p>Alur belajar terarah disusun secara komprehensif oleh para expert.Nggak usah pusing-pusing lagi mikirin roadmap belajar, tinggal ikutin aja materinya satu persatu sampai selesai.100% teruji ampuh!</p>
+				<p>Pemula, belum pernah belajar coding dan nggak punya background IT juga bisa gabung. Diajarin dari 0 banget!</p>
+				</div>
+			</div>
+		</div>
+		<div class="arrow d-flex flex-column-reverse flex-lg-row gap-5 py-4 pt-5">
+			<div class="content w-lg-50 d-flex">
+				<div class="parent my-auto">
+				<p>Error, stuck atau punya kendala saat belajar ngikutin materi? Langsung tanyain aja di Forum Tanya Jawab!</p>
+				<p>Pertanyaan-pertanyaanmu akan dijawab secara sigap oleh para mentor. Forum Tanya Jawab aktif pada jam kerja.</p>
+				</div>
+			</div>
+			<div class="image w-lg-50">
+				<img class="w-100 h-100 object-fit-cover" src="/assets/images/image-row-3.png" loading="lazy" alt="gamnar achive">
+			</div>
+		</div>
+		<div class="arrow d-flex flex-column flex-lg-row gap-5 py-4 pt-5">
+			<div class="image w-lg-50">
+			<img class="w-100 h-100 object-fit-cover" src="/assets/images/image-row-end.png" loading="lazy" alt="gamnar achive">
+			</div>
+			<div class="content w-lg-50 d-flex">
+				<div class="parent my-auto">
+				<p>Konsultasi online via Zoom seminggu sekali.</p>
+				<p>Nanya, curhat, konsultasi atau ngobrol langsung dengan mentor. Kamu bukan cuma nonton video doang, tapi belajar dan dibimbing langsung oleh manusia.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="py-5 back-secondary">
+	<div class="container d-flex flex-column-reverse flex-lg-row gap-5">
+		<div class="content w-lg-50">
+			<h2 class="title text-warning text-center mb-5">Fasilitas <span class="text-white title">Belajar</span></h2>
+			<p>Yang akan kamu dapatkan saat kamu gabung dalam program ini</p>
+			<ul class="lists-facilitis ps-0">
+				<li class="d-flex align-items-center mb-3">
+<svg aria-hidden="true" width="20px" height="20px" focusable="false" data-prefix="far" data-icon="square-check" class="svg-inline--fa fa-square-check fa-lg text-warning my-auto me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"></path></svg>
+<span class="text-white">Akses Materi + Update Materi Seumur Hidup</span>
+				</li>
+				<li class="d-flex align-items-center mb-3">
+<svg aria-hidden="true" width="20px" height="20px" focusable="false" data-prefix="far" data-icon="square-check" class="svg-inline--fa fa-square-check fa-lg text-warning my-auto me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"></path></svg>
+<span class="text-white">1000+ Materi Video Pembelajaran</span>
+				</li>
+				<li class="d-flex align-items-center mb-3">
+<svg aria-hidden="true" width="20px" height="20px" focusable="false" data-prefix="far" data-icon="square-check" class="svg-inline--fa fa-square-check fa-lg text-warning my-auto me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"></path></svg>
+<span class="text-white">Forum Tanya Jawab</span>
+				</li>
+				<li class="d-flex align-items-center mb-3">
+<svg aria-hidden="true" width="20px" height="20px" focusable="false" data-prefix="far" data-icon="square-check" class="svg-inline--fa fa-square-check fa-lg text-warning my-auto me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"></path></svg>
+<span class="text-white">Konsultasi Online Mingguan</span>
+				</li>
+				<li class="d-flex align-items-center mb-3">
+<svg aria-hidden="true" width="20px" height="20px" focusable="false" data-prefix="far" data-icon="square-check" class="svg-inline--fa fa-square-check fa-lg text-warning my-auto me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"></path></svg>
+<span class="text-white">Grup Member untuk Silaturahmi dan Informasi</span>
+				</li>
+				<li class="d-flex align-items-center mb-3">
+<svg aria-hidden="true" width="20px" height="20px" focusable="false" data-prefix="far" data-icon="square-check" class="svg-inline--fa fa-square-check fa-lg text-warning my-auto me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"></path></svg>
+<span class="text-white">Sertifikat Digital</span>
+				</li>
+				<li class="d-flex align-items-center mb-3">
+<svg aria-hidden="true" width="20px" height="20px" focusable="false" data-prefix="far" data-icon="square-check" class="svg-inline--fa fa-square-check fa-lg text-warning my-auto me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M211.8 339.8C200.9 350.7 183.1 350.7 172.2 339.8L108.2 275.8C97.27 264.9 97.27 247.1 108.2 236.2C119.1 225.3 136.9 225.3 147.8 236.2L192 280.4L300.2 172.2C311.1 161.3 328.9 161.3 339.8 172.2C350.7 183.1 350.7 200.9 339.8 211.8L211.8 339.8zM0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80H64C55.16 80 48 87.16 48 96z"></path></svg>
+<span class="text-white">6 Project Studi Kasus</span>
+				</li>
+			</ul>
+		</div>
+		<div class="image w-lg-50">
+			<img class="w-100 h-100 object-fit-cover" src="/assets/images/facility-image.png" loading="lazy" alt="gambar fisilitas">
+		</div>
+	</div>
+</section>
+<section id="comming-soon" class="d-flex align-items-center justify-content-center vh-100">
+	<p class="fs-1 title text-warning">Later</p>
+</section>
+	</main>
+</body>
+</html>
