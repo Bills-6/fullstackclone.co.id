@@ -42,3 +42,36 @@ a[href="#cspage"]:hover{
 .gradient-background{
 	    background: linear-gradient(82deg, #111a25 35%, #1d2530)
 }
+img{
+	color: #fff;
+}
+.collapse.navbar-collapse{
+	position: absolute;
+	display: flex !important;
+	flex-direction: column;
+	z-index: 40;
+	width: 100%;
+	top: 32px;
+	left: 0;
+	padding: 1rem;
+	height: 0;
+	transition: all .3s linear;
+}
+.collapse.navbar-collapse #nav-primary {
+	flex-direction: column;
+}
+.button{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+}
+#nav-primary + .button a{
+	width: 100%;
+}
+.collapse.navbar-collapse.show{
+	height: 230px;
+}
+.hamburger-bar{
+	z-index: 88;
+}
